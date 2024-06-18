@@ -1,0 +1,47 @@
+.products{
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    
+}
+
+.img01{
+    background-color: black;
+    background-image: url(../img/M.jpg);
+    width: 360px;
+    height: 200px;
+    background-position: 0px 10px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item:not(:last-child){
+    margin-right: 10px;
+}
+.item-title{
+    color: red;
+    font-size: 5em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+p{
+    display: flex;
+    justify-content: center;
+}
+.ALL{
+    width: 60%;
+    /* 這裡要用百分比，應為如果使用PX，那頁面的寬度是絕對固定，但百分比是依照顯示器客製化螢幕比例 */
+    margin: 0px auto;
+    display:flex;
+    /* display可以列表改變方向 */
+    flex-direction: row;
+    align-items: center;
+    /* 物件至中 */
+    flex-wrap:wrap;
+}

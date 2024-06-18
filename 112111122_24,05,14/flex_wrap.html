@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5</title>
+    <style>
+        /* #cont{
+            width: 900px;
+            margin: 0px auto;
+        } */
+        .Y{
+            margin: 10px;
+            height: 200px;
+            width: 200px;
+            background-color: rgb(0, 0, 0);
+            list-style: none;
+            font-size: 3em;
+            display: flex;
+            justify-content: center;
+            /* 主軸的排列式至中 */
+            color:rgb(206, 197, 197);
+            align-items: center;
+        }
+
+        .outter{
+            width: 80%;
+            /* 這裡要用百分比，應為如果使用PX，那頁面的寬度是絕對固定，但百分比是依照顯示器客製化螢幕比例 */
+            margin: 0px auto;
+            display:flex;
+            /* display可以列表改變方向 */
+            flex-direction: row;
+            align-items: center;
+            /* 物件至中 */
+            flex-wrap:wrap;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(243, 185, 28);">
+    <div id="cont">
+        <ul class=outter>
+            <li class="Y">1</li>
+            <li class="Y">2</li>
+            <li class="Y">3</li>
+            <li class="Y">4</li>
+            <li class="Y">5</li>
+            <li class="Y">6</li>
+            <li class="Y">7</li>
+            <li class="Y">8</li>
+            <li class="Y">9</li>
+            <li class="Y">10</li>
+        </ul>
+    </div>
+    
+</body>
+</html>

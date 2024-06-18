@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inline-block</title>
+
+    <style>
+
+
+        body{
+    margin: 0px;
+}
+header{
+    height:200px;
+    background-color: rgb(255, 230, 0);
+}
+nav{
+    height: 100px;
+    background-color: brown;
+    position: relative;/* 相對標準點 */
+}
+main{
+    min-height: 1000px;
+    background-color: blueviolet;
+}
+
+aside{
+    width: 20%;
+    background-color: rgb(1, 245, 62);
+    min-height: 1000px;
+    float: left;
+}
+section{
+    width: 20%;
+    background-color: aqua;
+    min-height: 1000px;
+    float: left;
+}
+
+footer{
+    min-height: 100px;
+    background-color: rgb(38, 0, 255);
+    clear: both;
+}
+
+.M{
+    list-style-type: none;
+    width: 600px;
+    position: absolute;/* 絕對定位 */
+    right: -100px;
+}
+
+/*調整ul */ .M a{
+    text-decoration: none;
+}
+.M li{
+    list-style: none;
+    display: inline-block;
+    width: 100px;
+    line-height: 50px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+.M a:hover{
+    color: red fnx;
+}
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+
+    </header>
+
+    <nav>
+        <ul class="M">
+            <li><a href="#">超連結1</a></li>
+            <li><a href="#">超連結2</a></li>
+            <li><a href="#">超連結3</a></li>
+            <li><a href="#">超連結4</a></li>
+            <li><a href="#">超連結5</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+    </main>
+
+    <footer>
+        
+    </footer>
+
+</body>
+</html>

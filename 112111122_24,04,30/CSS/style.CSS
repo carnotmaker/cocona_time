@@ -1,0 +1,127 @@
+@charset "utf-8";
+
+body{
+    background-image: url(../img/校徽.png);
+    background-repeat:no-repeat;
+    background-size: auto;
+    background-position:center;
+    
+    background-attachment: fixed;
+}
+#container{
+    width: 980;
+    margin: 40px auto;
+    padding: 40px 80px;
+    background-color: rgba(117, 88, 53, 0.979);
+}
+/*視窗背景色設定*/
+
+
+/*連結顏色設定*/
+a{
+    color: rgb( );
+}
+
+/* 連結文字顏色 */
+
+
+/*頁首,導覽,頁尾的共通設定*/
+
+
+/*學歷*/
+.Educational li{
+list-style-type: none;
+display: inline-block;
+
+text-align: center;
+
+border: 2px solid rgb(255, 248, 248);
+margin: 30px;
+
+}
+/* 學歷連結變化 */
+.Educational a{
+    display: inline-block;
+    background-color: rgba(255, 166, 0, 0.185);
+    padding: 10px;
+    width: 140px;
+    text-decoration: none;
+}
+.Educational a:hover{
+    background-color: rgba(255, 123, 0, 0.521);
+    color: rgba(59, 16, 5, 0.712);
+    padding:11px;
+}
+    
+
+/*頁面標題設定*/
+
+
+/*次標題設定*/
+
+
+/*小標題設定*/
+
+
+/*文字*/
+.text_{
+    text-align:start;
+}
+
+/*連結圖示設定*/
+
+
+/*區塊間分隔*/
+
+
+/*區塊三*/
+.three dd{
+    border: 2px solid rgb(158, 100, 33);
+    background-color: rgba(158, 100, 33, 0.37);
+    padding: 10px;
+    margin: 3px;
+}   
+.three dt{
+    text-align: start;
+    padding: 10px;
+}
+
+/*亞東科大*/
+.Y_{
+
+}
+._Y a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(255, 166, 0, 0.185);
+    padding: 5px;
+    border:1px solid rgb(0, 0, 0);
+    color: black;
+}
+._Y a:hover{
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(255, 166, 0, 0.185);
+    padding: 5px;
+    border:1px solid rgb(255, 255, 255);
+    color:rgb(255, 255, 255)
+}
+/*證照相片設定*/
+.IMG0{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    border: 10px double rgb(238, 234, 234);
+}
+.IMGH{
+    float: left;
+    border-radius: 180px;
+}
+
+
+.T{
+    text-shadow:3px 10px 20px rgb(255, 255, 255);
+    padding: 10px;
+    margin: 10px;
+    color: rgb(214, 192, 192);
+}
