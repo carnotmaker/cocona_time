@@ -1,0 +1,75 @@
+.Parallelograms{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+.parallelogram{
+    transform: skew(-45deg);
+    /* color, paddings, etc. */
+    width:250px;
+    height: 250px;
+    color: white;
+    font-size: 1.5em;
+    font-family: helvetica;
+    font-weight: 700;
+    text-decoration: none;
+    border: 5px solid #450399;
+}
+.parallelogram> div {/* 這是內容層*/
+    transform: skew(45deg);
+} 
+.space{
+    transform: skew(-45deg);
+    /* color, paddings, etc. */
+    width:250px;
+    height: 250px;
+    color: white;
+    font-size: 1.5em;
+    font-family: helvetica;
+    font-weight: 700;
+    text-decoration: none;
+    border: 3px solid rgba(255, 0, 0, 0);
+}
+.space> div {/* 這是內容層*/
+    transform: skew(45deg);
+} 
+#p1 {
+    background-image: url(../IMG/parallelogrem/light/2024_1_14_p.jpg);
+    background-size:100%;
+}
+#p2 {
+    background-image: url(../IMG/parallelogrem/light/A.JPG);
+    background-size:100%;
+}
+#p3 {
+    background-image: url(../IMG/parallelogrem/light/B.JPG);
+    background-size:100%;
+}
+
+#p4 {
+    background-image: url(../IMG/parallelogrem/light/C.jpg);
+    background-size:100%;
+}
+
+#pa {
+    background-image: url(../IMG/parallelogrem/black/a.JPG);
+    background-size:160%;
+    background-repeat: no-repeat;
+}
+#pb {
+    background-image: url(../IMG/parallelogrem/black/b.JPG);
+    background-size:100%;
+}
+#pc {
+    background-image: url(../IMG/parallelogrem/black/c.JPG);
+    background-size:160%;
+    background-repeat: no-repeat;
+}
+
+#pd {
+    background-image: url(../IMG/parallelogrem/black/d.JPG);
+    background-size:160%;
+    background-repeat: no-repeat;
+}

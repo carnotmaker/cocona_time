@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>咖啡廣場集</title>
+    <style>
+        /* #cont{
+            width: 900px;
+            margin: 0px auto;
+        } */
+        .Y{
+            margin: 10px;
+            height: 400px;
+            width: 400px;
+            border: 3px solid rebeccapurple;
+            background-color: rgb(0, 0, 0);
+            list-style: none;
+            font-size: 3em;
+            display: flex;
+            justify-content: center;
+            /* 主軸的排列式至中 */
+            color:rgb(206, 197, 197);
+            align-items: center;
+        }
+
+        .outter{
+            width: 80%;
+            /* 這裡要用百分比，應為如果使用PX，那頁面的寬度是絕對固定，但百分比是依照顯示器客製化螢幕比例 */
+            margin: 0px auto;
+            display:flex;
+            /* display可以列表改變方向 */
+            flex-direction: row;
+            align-items: center;
+            /* 物件至中 */
+            flex-wrap:wrap;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(211, 192, 139);">
+    <div id="cont">
+        <ul class=outter>
+            <a href="https://www.facebook.com/oromocafe4/"><li class="Y" style="background-image: url(IMG/coffee/C01.jpg );background-size: 90%;"></li></a>
+            <a href="https://www.facebook.com/oromocafe4/"><li class="Y" style="background-image: url(IMG/coffee/C02.jpg );background-size: 220%;"></li></a>
+            <a href="https://www.facebook.com/oromocafe4/"><li class="Y" style="background-image: url(IMG/coffee/C03.PNG );background-size: 180%;"></li></a>
+            <a href="https://www.facebook.com/oromocafe4/"><li class="Y" style="background-image: url(IMG/coffee/C04.jpg );background-size: 160%;"></li></a>
+            <a href="https://www.facebook.com/oromocafe4/"><li class="Y" style="background-image: url(IMG/coffee/C05.PNG );background-size: 160%;"></li></a>
+            <a href="https://www.facebook.com/oromocafe4/"><li class="Y" style="background-image: url(IMG/coffee/C06.jpg );background-size: 180%;"></li></a>
+        </ul>
+    </div>
+    
+</body>
+</html>
